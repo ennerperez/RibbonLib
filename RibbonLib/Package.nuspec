@@ -18,8 +18,9 @@
     <tags>WinForms Ribbon Generator</tags>
   </metadata>
   <files>
-    <file src="RibbonGenerator.targets" target="build\RibbonGenerator.targets" />
-    <file src="RibbonMarkup.xml" target="content\RibbonMarkup.xml" />
+    <file src="RibbonLib.targets" target="build\RibbonLib.targets" />
+    <file src="RibbonMarkup.xml.transform" target="content\RibbonMarkup.xml.transform" />
+    <file src="RibbonMarkup.ribbon" target="content\RibbonMarkup.ribbon" />
     <file src="..\RibbonGenerator.Console\bin\Release\*.dll" target="tools\" />
     <file src="..\RibbonGenerator.Console\bin\Release\*.exe" target="tools\" />
   </files>

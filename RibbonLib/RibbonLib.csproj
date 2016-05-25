@@ -158,7 +158,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="RibbonGenerator.targets">
+    <None Include="RibbonMarkup.ribbon" />
+    <None Include="RibbonMarkup.xml.transform" />
+    <None Include="RibbonLib.targets">
       <SubType>Designer</SubType>
     </None>
     <None Include="Package.nuspec" />

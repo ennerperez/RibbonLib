@@ -197,9 +197,28 @@ namespace RibbonLib
             get { return _resourceName; }
             set
             {
-                _resourceName = value;
+                _resourceName = GetResourceName(value);
                 CheckInitialize();
             }
+        }
+
+        private static string GetResourceName(string value)
+        {
+            if (!string.IsNullOrEmpty(value))
+            {
+                if (File.Exists(value))
+                {
+                    var file = new FileInfo(value);
+                    var name = file.Name;
+                    var assembly = "Project";
+                    if (!Util.DesignMode)
+                        assembly = Assembly.GetEntryAssembly().GetName().Name;
+
+                    value = string.Format("{0}.{1}", assembly, name);
+                }
+            }
+
+            return value;
         }
 
         [Browsable(false), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -281,7 +300,7 @@ namespace RibbonLib
 
             // try to get from current current culture fallback satellite assembly
             Assembly fallbackAssembly = null;
-            if(culture.Parent != null)
+            if (culture.Parent != null)
                 TryGetSatelliteAssembly(culture.Parent, ribbonAssembly, ref fallbackAssembly);
 
             found = TryGetRibbon(ribbonResource, fallbackAssembly, ref data);
