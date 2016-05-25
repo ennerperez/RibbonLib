@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonLib", "RibbonLib\RibbonLib.csproj", "{0D4F3C14-B605-4471-B581-79784A89675C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -54,7 +54,6 @@ Global
 		{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
