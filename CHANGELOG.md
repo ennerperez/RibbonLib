@@ -6,5 +6,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Changed
 - NuGet Package
 - Integrated generator
+- Project cleaning
 
 ## [2.6.0] - [Obsolete]
