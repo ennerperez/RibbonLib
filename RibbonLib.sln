@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonLib", "RibbonLib\RibbonLib.csproj", "{0D4F3C14-B605-4471-B581-79784A89675C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -18,20 +18,23 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{130FA927-ACE4-4B15-8492-1FEDE64035DB}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{F2CB20FD-1A19-49B9-8722-22E31CC83160}"
 	ProjectSection(SolutionItems) = preProject
-		.editoricon.png = .editoricon.png
-		.gitignore = .gitignore
 		CHANGELOG.md = CHANGELOG.md
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".files", ".files", "{4CF96F40-031C-4EBB-8EB4-24B1567A77FE}"
+	ProjectSection(SolutionItems) = preProject
+		.editoricon.png = .editoricon.png
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

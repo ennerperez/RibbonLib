@@ -11,7 +11,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RibbonGenerator.Console</RootNamespace>
     <AssemblyName>rgc</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -35,6 +35,12 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\RibbonGenerator\RibbonGenerator.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -55,6 +61,9 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\RibbonGenerator\RibbonGenerator.snk">
+      <Link>RibbonGenerator.snk</Link>
+    </None>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>

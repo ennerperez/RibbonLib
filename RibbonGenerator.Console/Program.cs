@@ -31,6 +31,10 @@ namespace RibbonGenerator.Console
             {
                 System.Console.Error.WriteLine(ex.Message);
             }
+
+#if DEBUG
+            System.Console.ReadKey();
+#endif
         }
     }
 }
