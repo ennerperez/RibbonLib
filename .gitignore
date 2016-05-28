@@ -153,6 +153,7 @@ publish/
 # NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
 *.nuget.targets
+.nuget/NuGet.exe
 
 # Microsoft Azure Build Output
 csx/
@@ -234,4 +235,3 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-.nuget/NuGet.exe

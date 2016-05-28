@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{F2CB20FD
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonLib.Sample", "RibbonLib.Sample\RibbonLib.Sample.csproj", "{FCE564C9-C111-4D0A-9AD9-B62B2B4CEC0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".files", ".files", "{4CF96F40-031C-4EBB-8EB4-24B1567A77FE}"
 	ProjectSection(SolutionItems) = preProject
